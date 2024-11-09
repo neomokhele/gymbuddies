@@ -1,10 +1,11 @@
-import { HeaderComponent, QuoteComponent } from "@/components";
+import { ClassComponent, HeaderComponent, QuoteComponent } from "@/components";
 
 export default function Home() {
   return (
-    <main className="font-[family-name:var(--font-geist-sans)]">
-      <HeaderComponent/>
-      <QuoteComponent/>
+    <main className="font-[family-name:var(--font-LibreBaskerville-Regular)]">
+      <HeaderComponent />
+      <QuoteComponent />
+      <ClassComponent />
     </main>
   );
 }
