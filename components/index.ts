@@ -1,5 +1,6 @@
 //common components
 import ButtonComponent from "./common/ButtonComponent";
+import NoResultsFoundComponent from "./common/NoResultsFoundComponent";
 import TextInputComponent from "./common/TextInputComponent";
 
 //layout components
@@ -21,6 +22,7 @@ import WhyGymBuddiesComponent from "./sections/WhyGymBuddiesComponent";
 
 export {
     ButtonComponent,
+    NoResultsFoundComponent,
     TextInputComponent,
     TopHeaderComponent,
     FooterComponent,
