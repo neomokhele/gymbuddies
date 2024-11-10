@@ -1,4 +1,9 @@
-import { ClassComponent, HeaderComponent, QuoteComponent } from "@/components";
+import {
+  ClassComponent,
+  HeaderComponent,
+  QuoteComponent,
+  WhyGymBuddiesComponent,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -6,6 +11,7 @@ export default function Home() {
       <HeaderComponent />
       <QuoteComponent />
       <ClassComponent />
+      <WhyGymBuddiesComponent />
     </main>
   );
 }

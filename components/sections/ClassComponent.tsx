@@ -28,11 +28,11 @@ const ClassComponent = () => {
 
   return (
     <section id="#classes" className="flex flex-col pt-16">
-      <div className="flex text-white text-sm pl-8">
+      <div className="flex text-white text-sm pl-16">
         <p>Classes</p>
       </div>
 
-      <div className="flex flex-row gap-4 pl-8 pr-4 pt-4 overflow-x-auto scrollbar-none">
+      <div className="flex flex-row gap-4 pl-16 pr-4 pt-4 overflow-x-auto scrollbar-none">
         {classCategoryList.map((item) => (
           <div
             key={item.id}
@@ -47,7 +47,7 @@ const ClassComponent = () => {
         ))}
       </div>
 
-      <div className={`${filteredLessons.length === 0 ? "flex flex-col gap-4 items-center justify-center mt-10" : "grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 px-8"}`}>
+      <div className={`${filteredLessons.length === 0 ? "flex flex-col gap-4 items-center justify-center mt-10" : "grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 px-16"}`}>
         {filteredLessons.length === 0 ? (
           <NoResultsFoundComponent/>
         ) : (
