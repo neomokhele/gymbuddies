@@ -16,7 +16,7 @@ const TeamMemberComponent = () => {
   };
 
   return (
-    <section id="#teamMembers" className="flex flex-col px-8 py-16">
+    <section id="#teamMembers" className="flex flex-col px-0 md:px-8 py-16">
       <div className="flex items-center justify-center text-white text-3xl font-bold">
         <p className="w-64 text-center">Meet mindful movement experts</p>
       </div>

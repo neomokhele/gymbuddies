@@ -25,7 +25,7 @@ const TextInputComponent = ({
         maxLength={maxLength}
         minLength={minLength}
         pattern={pattern}
-        className="w-full py-2 px-3 bg-transparent focus:outline-none focus:ring-2 focus:ring-transparent focus:border-transparent text-white md:text-sm text-xs placeholder:text-white"
+        className="w-full py-2 px-3 bg-transparent focus:outline-none focus:ring-2 focus:ring-transparent focus:border-transparent text-white md:text-md text-sm placeholder:text-white"
       />
     </div>
   );

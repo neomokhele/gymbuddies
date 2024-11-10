@@ -23,11 +23,11 @@ const TeamMemberItemComponent = ({
         alt={name}
         width={1000}
         height={1000}
-        className="w-full h-72 md:h-96 object-cover"
+        className="w-full h-44 md:h-96 object-cover"
         priority
       />
 
-      <div className="flex flex-row justify-between text-white text-md">
+      <div className="flex flex-row justify-between text-white text-xs md:text-md">
         <p className="line-clamp-1">{name}</p>
         <div className="flex flex-row items-center justify-end gap-2">
           {socialLinks.map((link, index) => (
