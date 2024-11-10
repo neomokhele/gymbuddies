@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { TopHeaderComponent } from "@/components";
 import { libreBaskerville } from "@/constants/fonts";
 import "./globals.css";
 
@@ -18,7 +17,6 @@ export default function RootLayout({
         className={`${libreBaskerville.variable} antialiased`}
         suppressHydrationWarning
       >
-        <TopHeaderComponent />
         {children}
       </body>
     </html>
