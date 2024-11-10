@@ -3,6 +3,7 @@
 import { useState } from "react";
 import TeamMemberItemComponent from "./TeamMemberItemComponent";
 import { teamMemberData } from "@/data/teamMemberData";
+import { teamMemberTitle } from "@/constants/string";
 
 const TeamMemberComponent = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -16,9 +17,9 @@ const TeamMemberComponent = () => {
   };
 
   return (
-    <section id="#teamMembers" className="flex flex-col px-0 md:px-8 py-16">
+    <section id="#teamMember" className="flex flex-col px-0 md:px-8 py-16">
       <div className="flex items-center justify-center text-white text-3xl font-bold">
-        <p className="w-64 text-center">Meet mindful movement experts</p>
+        <p className="w-64 text-center">{teamMemberTitle}</p>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6 px-8">

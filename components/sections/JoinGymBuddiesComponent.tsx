@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ButtonComponent from "../common/ButtonComponent";
 import TextInputComponent from "../common/TextInputComponent";
+import { joinButtonText, joinTitle } from "@/constants/string";
 
 const JoinGymBuddiesComponent = () => {
   const [email, setEmail] = useState("");
@@ -30,7 +31,7 @@ const JoinGymBuddiesComponent = () => {
   return (
     <div className="flex flex-col md:flex-row px-10 md:px-36 py-8 items-center w-full bg-purple-500 gap-6 md:gap-0">
       <div className="w-full md:w-1/2 items-center justify-center text-2xl md:text-6xl text-white">
-        <p className="md:text-start text-center">Ready to join community?</p>
+        <p className="md:text-start text-center">{joinTitle}</p>
       </div>
 
       <div className="w-full md:w-1/2 items-center justify-center">
@@ -40,7 +41,7 @@ const JoinGymBuddiesComponent = () => {
         >
           <div className="w-[65%] md:w-[80%]">
             <TextInputComponent
-              placeholder="Enter your email"
+              placeholder="Email Address"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               onBlur={handleBlur}
@@ -58,7 +59,7 @@ const JoinGymBuddiesComponent = () => {
               isYellow={true}
               isPurple={false}
               type="submit"
-              label="Join now"
+              label={joinButtonText}
               disabled={false}
               isLoading={false}
             />

@@ -24,7 +24,7 @@ const NotFoundPage = () => {
             our site.
           </p>
 
-          <div className="w-full md:w-1/3 mt-8">
+          <div className="w-2/4 md:w-1/3 mt-8">
             <ButtonComponent
               isPurple={true}
               isYellow={false}
