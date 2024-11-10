@@ -1,5 +1,6 @@
 import {
   ClassComponent,
+  CTAComponent,
   HeaderComponent,
   LiveSessionComponent,
   QuoteComponent,
@@ -14,6 +15,7 @@ export default function Home() {
       <ClassComponent />
       <WhyGymBuddiesComponent />
       <LiveSessionComponent/>
+      <CTAComponent/>
     </main>
   );
 }
