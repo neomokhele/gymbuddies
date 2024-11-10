@@ -1,7 +1,8 @@
 "use client";
 
-import { companyEmail, companyNumber, promo } from "@/constants/string";
+import Link from "next/link";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import { companyEmail, companyNumber, promo } from "@/constants/string";
 
 const TopHeaderComponent = () => {
   const handleDropDown = () => {
@@ -26,23 +27,23 @@ const TopHeaderComponent = () => {
       <div className="w-1/2 flex items-center justify-end">
         <p>
           <span className="cursor-pointer hover:text-yellow-400">
-            <a
+            <Link
               href={`tel:${companyNumber}`}
               rel="noopener noreferrer"
               target="_blank"
             >
               {companyNumber}
-            </a>
+            </Link>
           </span>
           <span className="px-2">|</span>
           <span className="cursor-pointer hover:text-yellow-400">
-            <a
+            <Link
               href={`mailto:${companyEmail}`}
               rel="noopener noreferrer"
               target="_blank"
             >
               {companyEmail}
-            </a>
+            </Link>
           </span>
         </p>
       </div>
