@@ -3,6 +3,7 @@ import {
   CTAComponent,
   DownloadAppComponent,
   HeaderComponent,
+  JoinGymBuddiesComponent,
   LiveSessionComponent,
   QuoteComponent,
   TeamMemberComponent,
@@ -20,6 +21,7 @@ export default function Home() {
       <CTAComponent/>
       <TeamMemberComponent/>
       <DownloadAppComponent/>
+      <JoinGymBuddiesComponent/>
     </main>
   );
 }

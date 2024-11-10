@@ -6,8 +6,8 @@ import { liveSessionBenefits } from "@/data/gymBuddieBenfits";
 
 const LiveSessionComponent = () => {
   return (
-    <div className="flex flex-col items-start justify-center bg-dark-1 px-16 py-10 gap-8">
-      <p className="text-xl italic text-white">
+    <div className="flex flex-col items-start justify-center bg-dark-1 px-6 md:px-16 py-10 gap-8">
+      <p className="text-md md:text-xl italic text-white">
         Our platform is built to help you stay motivated and focused. We offer
         personalised workout plans, easy customisation, and access to exclusive
         resources. Elevate your fitness and achieve your goals. Join our journey
