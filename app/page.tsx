@@ -1,4 +1,10 @@
-import { ClassComponent, HeaderComponent, QuoteComponent } from "@/components";
+import {
+  ClassComponent,
+  HeaderComponent,
+  LiveSessionComponent,
+  QuoteComponent,
+  WhyGymBuddiesComponent,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -6,6 +12,8 @@ export default function Home() {
       <HeaderComponent />
       <QuoteComponent />
       <ClassComponent />
+      <WhyGymBuddiesComponent />
+      <LiveSessionComponent/>
     </main>
   );
 }
