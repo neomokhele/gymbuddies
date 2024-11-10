@@ -10,7 +10,7 @@ const libreBaskerville = localFont({
       style: "normal",
     },
     {
-      path: "./fonts/LibreBaskerville-italic.ttf",
+      path: "./fonts/LibreBaskerville-Italic.ttf",
       weight: "700",
       style: "normal",
     },
