@@ -1,13 +1,12 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
-import { SiOpenaigym } from "react-icons/si";
 import { IoClose, IoMenu } from "react-icons/io5";
 
 import { topNavData } from "@/data/navigationData";
-import { companyName } from "@/constants/string";
 import ButtonComponent from "../common/ButtonComponent";
-import Link from "next/link";
+import LogoComponent from "../common/LogoComponent";
 
 const NavigationComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,16 +20,10 @@ const NavigationComponent = () => {
   };
 
   return (
-    <div className="relative">
+    <nav className="relative">
       {/* Desktop and Tablet Navigation */}
       <div className="hidden md:flex flex-row justify-between w-full">
-        {/* Left section */}
-        <div className="flex flex-row gap-2 items-center justify-start">
-          <SiOpenaigym size={35} />
-          <p className="text-2xl md:text-3xl lg:text-4xl text-white font-extrabold">
-            {companyName}
-          </p>
-        </div>
+        <LogoComponent />
 
         {/* Center section with nav links */}
         <div className="flex flex-row gap-0 items-center justify-center">
@@ -66,12 +59,7 @@ const NavigationComponent = () => {
 
       {/* Mobile Navigation */}
       <div className={`md:hidden flex items-center justify-between w-full`}>
-        <div className="flex items-center">
-          <SiOpenaigym className="h-[24px] w-[24px]" />
-          <p className="text-2xl text-white font-extrabold ml-2">
-            {companyName}
-          </p>
-        </div>
+        <LogoComponent />
 
         <div className="flex items-center">
           {!isMenuOpen && (
@@ -139,7 +127,7 @@ const NavigationComponent = () => {
           </div>
         </div>
       )}
-    </div>
+    </nav>
   );
 };
 
