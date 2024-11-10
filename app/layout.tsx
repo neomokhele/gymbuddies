@@ -5,17 +5,17 @@ import "./globals.css";
 const libreBaskerville = localFont({
   src: [
     {
-      path: "/fonts/LibreBaskerville-Regular.ttf",
+      path: "./fonts/LibreBaskerville-Regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "/fonts/LibreBaskerville-italic.ttf",
+      path: "./fonts/LibreBaskerville-italic.ttf",
       weight: "700",
       style: "normal",
     },
     {
-      path: "/fonts/LibreBaskerville-Bold.ttf",
+      path: "./fonts/LibreBaskerville-Bold.ttf",
       weight: "700",
       style: "normal",
     },
