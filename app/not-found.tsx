@@ -19,8 +19,8 @@ const NotFoundPage = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-white opacity-90">
-            The page you're looking for no longer exists or has been moved.
-            Don't worry! You can return to the home page and continue browsing
+            The page you are looking for no longer exists or has been moved.
+            Do not worry! You can return to the home page and continue browsing
             our site.
           </p>
 
