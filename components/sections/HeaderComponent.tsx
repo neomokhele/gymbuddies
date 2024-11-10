@@ -9,7 +9,7 @@ import { bannerImage } from "@/constants/images";
 const HeaderComponent = () => {
   return (
     <section
-      id="header"
+      id="#header"
       className="relative flex flex-col pt-6 pb-0 px-6 md:px-16 lg:px-16 h-[70vh] md:h-[70.5vh] w-full"
     >
       <div
@@ -17,7 +17,7 @@ const HeaderComponent = () => {
         style={{ backgroundImage: `url(${bannerImage})`, opacity: 0.5 }}
       ></div>
 
-      <div className="relative z-10 flex flex-col justify-between">
+<div className="relative z-10 flex flex-col justify-between">
         <NavigationComponent />
 
         <div className="absolute top-72 inset-0 flex flex-col gap-10 w-[36rem]">

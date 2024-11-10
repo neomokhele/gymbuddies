@@ -29,3 +29,12 @@ body {
   -ms-overflow-style: none;  /* IE 10+ */
   scrollbar-width: none;  /* Firefox */
 }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}

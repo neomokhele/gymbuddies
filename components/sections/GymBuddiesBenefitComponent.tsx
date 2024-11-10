@@ -30,7 +30,7 @@ const GymBuddiesBenefitComponent = () => {
             width={1000}
             height={1000}
             className="w-full md:w-2/3 h-96 object-cover rounded-lg"
-            loading="lazy"
+            priority
           />
         </div>
   

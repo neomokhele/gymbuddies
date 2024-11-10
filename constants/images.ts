@@ -12,10 +12,22 @@ const execriseEight = "https://images.unsplash.com/photo-1652363723082-b1fdca4bd
 const benefitsImage = "https://images.unsplash.com/photo-1539794830467-1f1755804d13?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 const CTAImage = "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
-const ownerOne = "https://images.unsplash.com/photo-1625504615927-c14f4f309b63?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-const ownerTwo = "https://images.unsplash.com/photo-1609436132311-e4b0c9370469?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-const ownerThree = "https://images.unsplash.com/photo-1627393100177-b4297e79a5be?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-const ownerFour = "https://images.unsplash.com/photo-1656918358725-faeeadfdfee8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberOne = "https://images.unsplash.com/photo-1625504615927-c14f4f309b63?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberTwo = "https://images.unsplash.com/photo-1609436132311-e4b0c9370469?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberThree = "https://images.unsplash.com/photo-1627393100177-b4297e79a5be?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberFour = "https://images.unsplash.com/photo-1656918358725-faeeadfdfee8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberFive = "https://images.unsplash.com/photo-1638727295415-286409421143?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberSix = "https://images.unsplash.com/photo-1570570133998-9a71f391632b?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberSeven = "https://images.unsplash.com/photo-1656338997878-279d71d48f6e?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberEight = "https://images.unsplash.com/photo-1554727242-741c14fa561c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberNine = "https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberTen = "https://images.unsplash.com/photo-1652471949169-9c587e8898cd?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberEleven = "https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberTwelve = "https://images.unsplash.com/photo-1611432579402-7037e3e2c1e4?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberThirteen = "https://images.unsplash.com/photo-1631377307692-36a9b6ae3ef6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberFourteen = "https://images.unsplash.com/photo-1627595359082-cc2b3487a40b?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberFifteen = "https://images.unsplash.com/photo-1627161684458-a62da52b51c3?q=80&w=1098&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const teamMemberSixteen = "https://images.unsplash.com/photo-1627161683077-e34782c24d81?q=80&w=1003&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
 const downloadImage = "https://images.unsplash.com/photo-1533560974115-3c8b3b6a0082?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
@@ -31,9 +43,21 @@ export {
     execriseEight,
     benefitsImage,
     CTAImage,
-    ownerOne,
-    ownerTwo,
-    ownerThree,
-    ownerFour,
+    teamMemberOne,
+    teamMemberTwo,
+    teamMemberThree,
+    teamMemberFour,
+    teamMemberFive,
+    teamMemberSix,
+    teamMemberSeven,
+    teamMemberEight,
+    teamMemberNine,
+    teamMemberTen,
+    teamMemberEleven,
+    teamMemberTwelve,
+    teamMemberThirteen,
+    teamMemberFourteen,
+    teamMemberFifteen,
+    teamMemberSixteen,
     downloadImage,
 };

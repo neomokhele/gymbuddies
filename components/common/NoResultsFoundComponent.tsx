@@ -9,7 +9,7 @@ const NoResultsFoundComponent = () => {
             width={300}
             height={300}
             className="object-contain"
-            loading="lazy"
+            priority
         />
       Unfortunately, there were no items found!
     </div>
