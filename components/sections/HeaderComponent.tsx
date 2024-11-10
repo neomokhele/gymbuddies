@@ -21,7 +21,7 @@ const HeaderComponent = () => {
         <NavigationComponent />
 
         <div className="absolute top-72 inset-0 flex flex-col gap-10 w-[36rem]">
-          <h1 className="text-6xl font-bold text-start text-white">
+          <h1 className="text-2xl md:text-6xl font-bold text-start text-white">
             GymBuddies - Your Personal Trainer
           </h1>
 

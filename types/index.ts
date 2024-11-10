@@ -7,7 +7,7 @@ export type TopNavDataProps = {
 
 export interface ButtonProps {
     label: string;
-    onClick: () => void;
+    onClick?: () => void;
     disabled?: boolean;
     type?: 'button' | 'submit' | 'reset' | undefined;
     icon?: React.ReactNode;
@@ -18,14 +18,11 @@ export interface ButtonProps {
  }
 
  export interface TextInputProps {
-    label: string;
     placeholder: string;
     value: string;
     onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
     disabled?: boolean;
     type?: 'text' | 'password' | 'email' | 'tel' | 'search' | undefined;
-    icon?: React.ReactNode;
-    iconPosition?: 'left' | 'right';
     required?: boolean;
     error?: string;
     onBlur?: () => void;
