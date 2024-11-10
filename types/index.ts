@@ -33,3 +33,10 @@ export interface ButtonProps {
     minLength?: number;
     pattern?: string;
  }
+
+ export interface TeamMemberProps {
+   image: string;
+   name: string;
+   focus: string;
+   socialLinks: { name: string; url: string }[];
+ }
