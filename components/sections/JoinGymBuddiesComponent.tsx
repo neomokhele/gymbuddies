@@ -28,7 +28,7 @@ const JoinGymBuddiesComponent = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row px-10 md:px-36 py-4 md:py-8 items-center w-full bg-purple-500 gap-6 md:gap-0">
+    <div className="flex flex-col md:flex-row px-10 md:px-36 py-8 items-center w-full bg-purple-500 gap-6 md:gap-0">
       <div className="w-full md:w-1/2 items-center justify-center text-2xl md:text-6xl text-white">
         <p className="md:text-start text-center">Ready to join community?</p>
       </div>
@@ -38,7 +38,7 @@ const JoinGymBuddiesComponent = () => {
           onSubmit={handleSubmit}
           className={`${emailError? "border-red-500" : "border-white"  } w-full md:px-8 px-2 py-2 md:py-4 flex flex-row justify-between items-center border-2 border-white rounded-full px-4ounded-`}
         >
-          <div>
+          <div className="w-[65%] md:w-[80%]">
             <TextInputComponent
               placeholder="Enter your email"
               value={email}
