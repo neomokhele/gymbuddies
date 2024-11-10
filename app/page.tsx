@@ -1,6 +1,7 @@
 import {
   ClassComponent,
   HeaderComponent,
+  LiveSessionComponent,
   QuoteComponent,
   WhyGymBuddiesComponent,
 } from "@/components";
@@ -12,6 +13,7 @@ export default function Home() {
       <QuoteComponent />
       <ClassComponent />
       <WhyGymBuddiesComponent />
+      <LiveSessionComponent/>
     </main>
   );
 }
