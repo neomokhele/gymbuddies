@@ -13,7 +13,6 @@ import ClassComponent from "./sections/ClassComponent";
 import CTAComponent from "./sections/CTAComponent";
 import DownloadAppComponent from "./sections/DownloadAppComponent";
 import HeaderComponent from "./sections/HeaderComponent";
-import HeaderInforComponent from "./sections/HeaderInforComponent";
 import JoinGymBuddiesComponent from "./sections/JoinGymBuddiesComponent";
 import LiveSessionComponent from "./sections/LiveSessionComponent";
 import QuoteComponent from "./sections/QuoteComponent";
@@ -31,7 +30,6 @@ export {
     CTAComponent,
     DownloadAppComponent,
     HeaderComponent,
-    HeaderInforComponent,
     JoinGymBuddiesComponent,
     LiveSessionComponent,
     QuoteComponent,

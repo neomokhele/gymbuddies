@@ -28,18 +28,18 @@ const ClassComponent = () => {
 
   return (
     <section id="#classes" className="flex flex-col pt-16">
-      <div className="flex text-white text-sm pl-16">
+      <div className="flex text-white text-sm pl-6 md:pl-16">
         <p>Classes</p>
       </div>
 
-      <div className="flex flex-row gap-4 pl-16 pr-4 pt-4 overflow-x-auto scrollbar-none">
+      <div className="flex flex-row gap-2 md:gap-4 pl-6 md:pl-16 pr-4 pt-4 overflow-x-auto scrollbar-none">
         {classCategoryList.map((item) => (
           <div
             key={item.id}
             className={`${selectedCategory === item.name ? "border-yellow-500 border-2 font-bold" : "border-white border-[0.5px] font-normal"} flex w-auto flex-row gap-2 items-center justify-center px-4 py-2 rounded-full whitespace-nowrap cursor-pointer`}
             onClick={() => handleCategoryClick(item.name)}
           >
-            <p className="text-white text-sm">{item.name}</p>
+            <p className="text-white text-xs md:text-sm">{item.name}</p>
             <div className="bg-yellow-500 rounded-full text-[10px] text-white h-4 w-4 flex items-center justify-center">
               <span>{getCategoryCount(item.name)}</span>
             </div>
@@ -47,7 +47,7 @@ const ClassComponent = () => {
         ))}
       </div>
 
-      <div className={`${filteredLessons.length === 0 ? "flex flex-col gap-4 items-center justify-center mt-10" : "grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 px-16"}`}>
+      <div className={`${filteredLessons.length === 0 ? "flex flex-col gap-4 items-center justify-center mt-10" : "grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 px-6 md:px-16"}`}>
         {filteredLessons.length === 0 ? (
           <NoResultsFoundComponent/>
         ) : (
@@ -59,7 +59,7 @@ const ClassComponent = () => {
                   alt="Class Image"
                   width={1000}
                   height={1000}
-                  className="w-full object-cover h-96 rounded-md"
+                  className="w-full object-cover h-72 md:h-96 rounded-md"
                 />
               </div>
 

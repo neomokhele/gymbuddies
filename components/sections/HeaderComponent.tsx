@@ -17,22 +17,22 @@ const HeaderComponent = () => {
         style={{ backgroundImage: `url(${bannerImage})`, opacity: 0.5 }}
       ></div>
 
-<div className="relative z-10 flex flex-col justify-between">
+      <div className="relative z-10 flex flex-col justify-between">
         <NavigationComponent />
 
-        <div className="absolute top-72 inset-0 flex flex-col gap-10 w-[36rem]">
-          <h1 className="text-6xl font-bold text-start text-white">
+        <div className="absolute top-72 inset-0 flex flex-col gap-6 md:gap-10 w-56 md:w-[36rem]">
+          <h1 className="text-2xl md:text-6xl font-bold text-start text-white">
             GymBuddies - Your Personal Trainer
           </h1>
 
-          <div className="w-1/3">
+          <div className="w-full md:w-1/3">
             <ButtonComponent
               isPurple={true}
               isYellow={false}
               label="Start your Free Trial"
               onClick={() => console.log("Book Now")}
               iconPosition="left"
-              icon={<IoIosArrowRoundForward size={20}/>}
+              icon={<IoIosArrowRoundForward size={20} />}
             />
           </div>
         </div>
