@@ -5,7 +5,7 @@ const QuoteComponent = () => {
     <div className="flex flex-col items-center justify-center h-[30vh] md:h-[25vh] bg-dark-1 px-10 md:px-56 lg:px-80 gap-6">
       <p className="text-md md:text-lg lg:text-xl italic text-center text-white">
         Our platform is built to help you stay motivated and focused. We offer
-        personalized workout plans, easy customisation, and access to exclusive
+        personalised workout plans, easy customisation, and access to exclusive
         resources. Elevate your fitness and achieve your goals. Join our journey with us.
       </p>
 

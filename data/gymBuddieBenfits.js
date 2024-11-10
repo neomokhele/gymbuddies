@@ -25,3 +25,25 @@ export const gymBuddiesBenefits = [
     },
   ];
   
+  export const liveSessionBenefits = [
+    {
+      id: 1,
+      benefit: "90+",
+      description: "Programs created for beginner, intermediate, and advanced fitness levels.",
+    },
+    {
+      id: 2, 
+      benefit: "1 on 1",
+      description: "Concierge to support your mindful movement and fitness goals.",
+    },
+    {
+      id: 3,
+      benefit: "16+",
+      description: "Styles to keep your mind and body guessing or deepen your practice.",
+    }, 
+    {
+      id: 4,
+      benefit: "2 to 90",
+      description: "Minute Classes to get you on your mat with whatever time you have.",
+    }
+  ]

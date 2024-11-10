@@ -6,7 +6,7 @@ import { benefitsImage } from "@/constants/images";
 const GymBuddiesBenefitComponent = () => {
     return (
       <div className="flex flex-col md:flex-row w-full gap-10">
-        <div className="flex flex-row md:flex-col w-full md:w-1/2 gap-6 justify-center">
+        <div className="flex flex-row md:flex-col w-full md:w-1/2 gap-6 justify-start">
           {gymBuddiesBenefits.slice(0, 2).map((benefit) => (
             <div key={benefit.id} className="flex flex-col">
               <div className="flex items-center justify-center bg-yellow-500 rounded-full w-6 h-6 text-white text-sm">
@@ -34,7 +34,7 @@ const GymBuddiesBenefitComponent = () => {
           />
         </div>
   
-        <div className="flex flex-row md:flex-col w-full md:w-1/2 gap-6 justify-center">
+        <div className="flex flex-row md:flex-col w-full md:w-1/2 gap-6 justify-start pb-4 md:pb-0">
           {gymBuddiesBenefits.slice(2, 4).map((benefit) => (
             <div key={benefit.id} className="flex flex-col ">
               <div className="flex items-center justify-center bg-yellow-500 rounded-full w-6 h-6 text-white text-sm">
