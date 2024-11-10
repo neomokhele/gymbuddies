@@ -6,6 +6,14 @@ import {
   inspirationLinkData,
 } from "@/data/footerData";
 import LogoComponent from "../common/LogoComponent";
+import {
+  companyName,
+  footerContentTitle,
+  footerDescription,
+  footerDeveloperText,
+  footerFitnessTitle,
+  footerInspirationTitle,
+} from "@/constants/string";
 
 const FooterComponent = () => {
   return (
@@ -13,10 +21,7 @@ const FooterComponent = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 w-full gap-6">
         <div className="flex flex-col gap-4">
           <LogoComponent hideIcon={true} />
-          <p className="text-white text-xs md:text-sm">
-            We take fitness to the next level by providing online Classes
-            settings, qualified and trained teachers, organised and structured.
-          </p>
+          <p className="text-white text-xs md:text-sm">{footerDescription}</p>
 
           <div className="flex flex-row gap-2">
             {companySocialMediaData.map((item) => (
@@ -32,7 +37,9 @@ const FooterComponent = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="text-white text-md md:text-md font-bold">Fitness</h3>
+          <h3 className="text-white text-md md:text-md font-bold">
+            {footerFitnessTitle}
+          </h3>
 
           <div className="flex flex-col gap-2">
             {fitnessLinkData.map((item) => (
@@ -49,7 +56,7 @@ const FooterComponent = () => {
 
         <div className="flex flex-col gap-2">
           <h3 className="text-white text-md md:text-md font-bold">
-            Inspiration
+            {footerInspirationTitle}
           </h3>
 
           <div className="flex flex-col gap-2">
@@ -66,7 +73,9 @@ const FooterComponent = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="text-white text-md md:text-md font-bold">Content</h3>
+          <h3 className="text-white text-md md:text-md font-bold">
+            {footerContentTitle}
+          </h3>
 
           <div className="flex flex-col gap-2">
             {contentLinkData.map((item) => (
@@ -86,10 +95,10 @@ const FooterComponent = () => {
 
       <div className="flex flex-col gap-1 pb-3 items-center justify-center text-center text-white text-xs md:text-sm w-full">
         <p>
-          &copy; GymBuddies {new Date().getFullYear() === 2024 ? "" : "-"}
+          &copy; {companyName} {new Date().getFullYear() === 2024 ? "" : "-"}
           {new Date().getFullYear()}
         </p>
-        <p>Developed by Neo Mokhele. All Rights Reserved</p>
+        <p>{footerDeveloperText}</p>
       </div>
     </footer>
   );
