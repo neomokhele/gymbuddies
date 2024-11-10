@@ -1,6 +1,27 @@
 import { Metadata } from "next";
-import { libreBaskerville } from "@/constants/fonts";
+import localFont from "next/font/local";
 import "./globals.css";
+
+const libreBaskerville = localFont({
+  src: [
+    {
+      path: "./fonts/LibreBaskerville-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/LibreBaskerville-italic.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "./fonts/LibreBaskerville-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-libre-baskerville",
+});
 
 export const metadata: Metadata = {
   title: "Gym Buddies | Self-Improvement and Workout Planning",
