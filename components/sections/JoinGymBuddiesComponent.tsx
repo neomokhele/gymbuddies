@@ -49,8 +49,8 @@ const JoinGymBuddiesComponent = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row px-10 md:px-32 py-8 items-center w-full bg-purple-500 gap-6 md:gap-8">
-      <div className="w-full md:w-1/2 items-center justify-center text-2xl md:text-4xl text-white">
+    <div className="flex flex-col md:flex-row px-10 md:px-32 lg:px-36 py-8 items-center w-full bg-purple-500 gap-6 md:gap-8">
+      <div className="w-full md:w-1/2 items-center justify-center text-2xl md:text-4xl lg:text-6xl text-white">
         <p className="md:text-start text-center">{joinTitle}</p>
       </div>
 
